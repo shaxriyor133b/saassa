@@ -3,10 +3,10 @@ ob_start();
 error_reporting(0);
 date_Default_timezone_set('Asia/Tashkent');
 
-$token="5587357372:AAEnynh2yP32Q8IutyBq7K_pXZVO83GEo4k";
+$token="8593854032:AAE6EYw3t6OdpryyFGmYOJi_MdyhuPQt0O8";
 
-$admin = "915078720";
-$user = "DIYOKING";
+$admin = "8201674543";
+$user = "bshaxriyor";
 $bot = bot('getme',['bot'])->result->username;
 $soat = date('H:i');
 $sana = date("d.m.Y");
@@ -61,7 +61,7 @@ return true;
 }
 
 function bot($method,$datas=[]){
-	$url = "https://api.telegram.org/bot5587357372:AAEnynh2yP32Q8IutyBq7K_pXZVO83GEo4k/".$method;
+	$url = "https://api.telegram.org/bot8593854032:AAE6EYw3t6OdpryyFGmYOJi_MdyhuPQt0O8/".$method;
 	$ch = curl_init();
 	curl_setopt($ch,CURLOPT_URL,$url);
 	curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
@@ -557,6 +557,7 @@ exit();
 }
 }
 }
+
 
 
 ?>
