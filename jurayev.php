@@ -7,7 +7,7 @@ $och=json_encode([
 ]
 ]);
 //bazaga ulanish
-$token="5587357372:AAEnynh2yP32Q8IutyBq7K_pXZVO83GEo4k";
+$token="8593854032:AAE6EYw3t6OdpryyFGmYOJi_MdyhuPQt0O8";
 $db = mysqli_connect("localhost","u9133_salom","Apkuz","u9133_salom");
 mysqli_set_charset($db, "utf8mb4");
 
@@ -77,4 +77,5 @@ unlink("key.txt");
 exit();
 } 
 } 
+
 ?>
