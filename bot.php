@@ -10,7 +10,7 @@ $user = "bshaxriyor";
 $bot = bot('getme',['bot'])->result->username;
 $soat = date('H:i');
 $sana = date("d.m.Y");
-CMD php -S 0.0.0.0:$PORT bot.php
+
 
 require ("sql.php");
 
@@ -561,4 +561,5 @@ exit();
 
 
 ?>
+
 
